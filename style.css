@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@300;900&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif; ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+
+    width: 100px;
+
+
+}
+#board{
+
+ width: 400px;
+ height: 400px;
+ background-color: #cdc1b5;
+ border: 6px solid #bbada0;
+ 
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    align-items: stretch;
+
+ 
+}
+.tile{
+ 
+ border: 5px solid #bbada0;
+ font-size: 40px;
+ font-weight: bold;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+.x1{
+    background-color:#eee4da;
+    color:black;
+}
+.x2{
+    background-color:#ece0ca;
+    color: violet;
+}
+.x3{
+    background-color: #f4b17a;
+    color: rgb(47, 236, 85);
+}
+.x4{
+background-color: #f59575;
+    color: greenyellow;
+}
+.x5{
+background-color: #da360d;
+    color: orange;
+}
+.x6{
+background-color: #f65d3b;
+    color: rgb(29, 182, 243);
+}
+.x7{
+background-color: #edce71;
+    color: rgb(237, 93, 117);
+}
+.x8{
+background-color: #edcc63;
+    color: red;
+}
+.x9{
+background-color: #edc651;
+    color: grey;
+}
+.x10{
+background-color: #cda112;
+    color: rgb(100, 79, 184);
+}
+.x11{
+background-color: #706027;
+    color: rgb(11, 229, 211);
+}
+.x12{
+    background-color: #fe3d3d;
+    color:gold ;
+}
+.x13{
+    background-color: #9f4949;
+    color:rgb(220, 153, 153) ;
+}
+ body {
+      background: linear-gradient(to right, #6b88b1,#2d2b79, #312ec9,#97bbf2)  no-repeat ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .rule{
+    padding: 10px;
+    border-top: 1px solid black;
+  }
+  
+
+.you{
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+    
+}
+.cont{
+    display: flex;
+    flex: row;
+    
+   
+}
+.cont3{
+    display: flex;
+    flex-direction: row;
+    padding:30px;
+    font-size: 20px;
+}
+.img1{
+    margin-left: 90px;
+}
+.brd{
+    font-size: 20px;
+    margin-top: 30px;
+    color:black;
+}
+.welcome{
+    align-items: center;
+
+    color: rgb(242, 39, 73);
+}
+.btn-board{
+    display: flex;
+    flex-direction: column;
+}
+.swipeleft{
+    height:35px;
+    width: 90px;
+    border-radius: 90%;
+    font-size: 20px;
+    color:green;
+    
+}
+.swiperight {
+    height: 35px;
+    width: 90px;
+    border-radius: 90%;
+    font-size: 20px;
+    color: green;
+    
+}
+.swipeup {
+    height: 35px;
+    width: 90px;
+    border-radius: 90%;
+    font-size: 20px;
+    color: green;
+    
+    
+    
+    
+}
+.controls{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.controls div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around   ;
+}
+.swipeu{
+    border-radius: 30%;
+background-image: linear-gradient(#5433ff, #20bdff, #a5fecb);
+    width: 60px;
+    height: 25px;
+    margin-bottom: 2px;
+    
+}
+.swiped{
+    border-radius: 30%;
+    background-image:linear-gradient(#348f50,#56b4d3);
+    width: 60px;
+    height: 25px;
+    margin-top: 2px;
+}
+.swipel {
+    border-radius: 30%;
+    background-image:linear-gradient(#02aab0,#00cdac);
+    width: 60px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: black;
+    color:white;
+    margin-right: 2px;
+    
+}
+.swiper {
+    border-radius: 30%;
+    background-image: linear-gradient(#ffe000,#799F0C);
+    width: 60px;
+    height:25px;
+    margin-top: 10px;
+    margin-left:2px ;
+}
+.swipeu:hover{
+       background-color: gold;
+}
+.swipel:hover {
+   background-color: green;
+}
+.swiper:hover {
+    background-color: skyblue;
+}
+.swiped:hover {
+    background-color: red;
+}
+.com{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+
+}
+@media screen and (max-width:438px) {
+    #board {
+        width: 260px;
+        height: 260px;
+        background-color: #cdc1b5;
+        border: 6px solid #bbada0;
+        margin: 0 auto;
+        
+    }
+
+    /* .tile {
+        width: 20%;
+        height: 20%;
+        border: 5px solid #bbada0 0px 0px 0px;
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    } */
+
+    #ldb {
+        background-image: linear-gradient(to right, rgb(42, 207, 116), rgb(88, 201, 122));
+
+    }
+
+    .controls {
+        display: flex;
+
+        height: 50px;
+        margin-top:2rem;
+
+    }
+
+}
+
